@@ -12,8 +12,7 @@
 	</div>
 	<?php if ($state == 'edit'): ?>
 		<script type="text/javascript" src="<?php echo base_url("assets/js/pacient_edit.js"); ?>"></script>
-
-		<?php $this->load->view('templates/history'); ?>
+        <script type="text/javascript" src="<?php echo base_url("assets/js/ask_close.js"); ?>"></script>
 	<?php endif; ?>
 
         <?php if ($state == 'add'): ?>
