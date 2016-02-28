@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'psicobeta.db.7405750.hostedresource.com:3306',
-	'username' => 'psicobeta',
-	'password' => 'Dni34906567b!',
-	'database' => 'psicobeta',
+	'hostname' => 'psico.db.7405750.hostedresource.com:3306',
+	'username' => 'psico',
+	'password' => 'Dni34906567!',
+	'database' => 'psico',
 	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
