@@ -13,6 +13,7 @@
 	<?php if ($state == 'edit'): ?>
 		<script type="text/javascript" src="<?php echo base_url("assets/js/pacient_edit.js"); ?>"></script>
         <script type="text/javascript" src="<?php echo base_url("assets/js/ask_close.js"); ?>"></script>
+        <div id = "any-changes">false</div>
 	<?php endif; ?>
 
         <?php if ($state == 'add'): ?>

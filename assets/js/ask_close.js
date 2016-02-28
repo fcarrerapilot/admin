@@ -1,9 +1,9 @@
 $(window).bind("beforeunload", function(event) { 
-	// if($("#report-success").html() == ""){
-	// 	return "¿GUARDASTE LOS CAMBIOS?"; 
-	// }
+	if($("#any-changes").html() == "true"){
+		return "¡Existen cambios no guardados!"; 
+	}
 });
 
-$("save-and-go-back-button").live( "click", function() {
-  alert( "Goodbye!" );
+$( ".form-control" ).change(function() {
+  $("#any-changes").html("true");
 });
