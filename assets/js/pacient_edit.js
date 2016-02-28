@@ -29,4 +29,10 @@ $( document ).ready(function() {
         $("#file4_field_box").toggle();
         $("#file5_field_box").toggle();
     });
+
+    if($("#file1_input_box").find("img").attr("src") !== undefined){
+        var elementToAdd = "<img src='' id='img_show_profile_picture'>";
+        $(elementToAdd).insertAfter($("#pacient_crud_container"));
+        $("#img_show_profile_picture").attr("src",$("#file1_input_box").find("img").attr("src"));
+    }
 });

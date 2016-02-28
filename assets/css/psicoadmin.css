@@ -66,6 +66,12 @@ body{
     margin-top: 50px;
 }
 
+#img_show_profile_picture {
+    float:right;
+    width: 20%;
+    margin-top: 50px;
+}
+
 #pacient_crud_container {
     width: 80%;
     float:left;
