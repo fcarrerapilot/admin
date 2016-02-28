@@ -1,6 +1,6 @@
 $(window).bind("beforeunload", function(event) { 
 	if($("#any-changes").html() == "true"){
-		return "¡Existen cambios no guardados!"; 
+		return "¡Existen cambios NO guardados!"; 
 	}
 });
 
